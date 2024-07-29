@@ -20,7 +20,7 @@ const connectDb = (uri) => {
       )
     )
     .catch((err) => {
-      throw err;
+      throw err;  
     });
 };
 
